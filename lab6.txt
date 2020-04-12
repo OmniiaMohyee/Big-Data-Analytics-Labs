@@ -1,0 +1,16 @@
+Lab6
+-----
+Q1: the not correlated variable pairs are 
+price,income
+price,age
+Q2:
+No there's no highly correlated variables in the dataset.
+Q3: 2 Categories.
+Q4: 
+Q5.1: 0.915272
+Q5.2: in the ideal case, the value of the auc score = 1. the model makes no wrong predictions.
+Q6: n a ROC curve the true positive rate (Sensitivity) is plotted in function of the false positive rate (100-Specificity) for different cut-off points of a parameter. Each point on the ROC curve represents a sensitivity/specificity pair corresponding to a particular decision threshold.
+>> the chosen decision threshold is what causes the TRP, FPR to change from one point to another in the ROC curve.
+Q7: As the price increases, the Purchase probability decreases. (Setting all other variables constant) => there's a negative correlation between price and Purchase probability (tried cor on price and MyDEPV and found it negative.)  -0.1945003
+Q8: same as 7 but +ve corr : 0.1958922
+Q9: same as 7 and 8, +ve corr. : 0.6744394
