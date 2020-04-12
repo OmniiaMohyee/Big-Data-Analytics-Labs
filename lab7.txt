@@ -1,0 +1,36 @@
+Lab7
+-----
+Q1: 
+a-the time range is from jan2004 till dec2014 -- 12 years.
+b-144 values.
+c-montly.
+Q2:
+the paramter frequency refers to the cycle the data takes. it's set to 12 becayse the year has 12 months.
+Q3:
+a-done.
+b- yes, i guess there's a linear trend in the data.
+c- there's no seasonality in this time series in my opinion. there's is not reqular pattern observed over the course of a year in this data.
+Q4: the function stl does  a seasonal trend decomposition of the time series.
+Q5:
+a- for a time series to be stationary, the mean and variance should not change overtime.
+b- i guess this one is a non stationary time series, becuase the mean changes over time.
+Q6:
+a- done.
+b- the condition of the mean is met. but the variance is not. so it's not stationary.
+c- Differencing can help stabilise the mean of a time series by removing changes in the level of a time series, and therefore eliminating (or reducing) trend and seasonality. As well as looking at the time plot of the data, the ACF plot is also useful for identifying non-stationary time series.
+Q7:
+a- done.
+b- no, mean is not.
+c- mean.
+d- logartihm doesn't guarantee making the timeseries stationary.
+Q8:
+a - both mean and variance conditions are satisfied.
+b- done.
+Q9:
+a- the series should be stationary and univariate. 
+b-
+c-
+ *p is the number of autoregressive terms
+ *d is the number of differences
+ *q is the number of moving average terms
+
