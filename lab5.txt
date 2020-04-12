@@ -1,0 +1,24 @@
+Lab5
+----- (PART-1)
+Q1: As the value of the standard deviation increases, the data points become more scattered around the regression line.
+Q2: the coffecients change according to the standard deviation. As I noticed, changing sd resulted in a slight change in the slope of the regression line as the the mean is the same and the intercept changed according to how the points are sampled so can't find a specific pattern for its change. slope moved back and forth around 6, while the intercept changed randomly according to how the data is sampled from the normal distribution.
+Q3: As the standard deviation increases, the data become more scattered around the regression line, which means that the distance between each point and the predicted point on the line increases -> R decreases (the higher the R2 value, the more the model fits the data).
+Q4: the residual plot here shows that the data can be fit with a linear model because it shows a random patten. YES It's a good residual plot in our case.
+---------------------------------------------------------------(PART-2)
+Q5: same as Q4. the points are taking a random pattern which means that the linear model is a good fit for the problem. YES It's a good residual plot.
+Q6: As I increase the x1*x1 coeffecient, the points start to take a pattern in the residual plot. which means a non-linear model would be a better fit for the data.
+---------------------------------------------------------------(PART-3)
+Q11: Height is more correlated to LungCap -> cor(height,lungcap) = 0.91218, cor(age,lungcap) = 0.81967
+Q12: Yes, human height and lung capacity are correlated. because the taller a human gets, the more air intake it needs.
+Q15: R2 value = 0.8321 -> relatively large value which means the linear model is a good fit for the data. 
+Q16:    
+(Intercept) -13.996829  
+data$Height   0.337157  
+Q17: the model line doesn't show in the scatter plot because it's between height and LungCap.
+and the scatter plot is for age vs. lungcap.
+Q19: the coeffecients of the model make sense -> lungcap is positively correlated with age so the coffecient is positive, and correlated negatively with smoke and caeserean so the coeffecient is negative.
+>> here the model line shows on the scatter plot because the plot is using age as its x-axis so as the model.
+Q21: MSE = 2.277029.
+
+
+ 
